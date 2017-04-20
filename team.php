@@ -10,18 +10,31 @@
 
 <div data-role="page" id="pageone">
   <div data-role="header">
-    <h1>Collapsible Blocks</h1>
+    <h1>MiniLesson Directory. Click To Expand A Minilesson</h1>
   </div>
 
   <div data-role="main" class="ui-content">
     <div data-role="collapsible">
       <h1>MiniLesson #1 - Creating A Project</h1>
-      <p>Google Doc IFrame Coming Soon!</p>
+     
+
+    <head>
+        <style type="text/css">
+            body, html
+            {
+                margin: 0; padding: 0; height: 100%; overflow: hidden;
+            }
+        </style>
+    </head>
+    <body>
+            <iframe width="100%" height="100%" src="https://docs.google.com/document/d/1K8YYw32TdEN9qd_tkypKQXDxwMh8uM3iAnUi5BcQ6jU/pub?embedded=true" />
+    </body>
+
     </div>
   </div>
 
   <div data-role="footer">
-    <h1>Insert Footer Text Here</h1>
+    <h1>More Being Added Weekly!</h1>
   </div>
 </div> 
 
