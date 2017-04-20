@@ -360,28 +360,28 @@
          <div class="card">
              <div class="front">
                  <div class="cover">
-                     <img src="images/rotating_card_thumb3.png"/>
+                     <img src="https://pbs.twimg.com/profile_images/725677511070208002/wNF2siRT.jpg"/>
                  </div>
                  <div class="user">
-                     <img class="img-circle" src="images/rotating_card_profile.png"/>
+                     <img class="img-circle" src="https://pbs.twimg.com/profile_images/725677511070208002/wNF2siRT.jpg"/>
                  </div>
                  <div class="content">
                      <div class="main">
-                         <h3 class="name">Inna Corman</h3>
-                         <p class="profession">Product Manager</p>
+                         <h3 class="name">Luca Galassi</h3>
+                         <p class="profession">Project Leader</p>
 
-                         <p class="text-center">"I'm the new Sinatra, and since I made it here I can make it anywhere, yeah, they love me everywhere"</p>
+                         <p class="text-center">"Guys We are behind! Get back to work! 10 Seconds Later: Did you see the big game last night?"</p>
                      </div>
                      <div class="footer">
                          <div class="rating">
-                             <i class="fa fa-mail-forward"></i> Auto Rotation
+                             <i class="fa fa-mail-forward"></i> Tap Or Place Your Cursor Here
                          </div>
                      </div>
                  </div>
              </div> <!-- end front panel -->
              <div class="back">
                  <div class="header">
-                     <h5 class="motto">"To be or not to be, this is my awesome motto!"</h5>
+                     <h5 class="motto">"Get Work Done, Then Have Fun!"</h5>
                  </div>
                  <div class="content">
                      <div class="main">
