@@ -16,18 +16,7 @@
   <div data-role="main" class="ui-content">
     <div data-role="collapsible">
       <h1>Click me - I'm collapsible!</h1>
-      <head>
-        <title>Test Layout</title>
-        <style type="text/css">
-            body, html
-            {
-                margin: 0; padding: 0; height: 100%; overflow: hidden;
-            }
-        </style>
-    </head>
-    <body>
-            <iframe width="100%" height="100%" src="http://www.cnn.com" />
-    </body>
+      <p>I'm the expanded content.</p>
     </div>
   </div>
 
@@ -38,4 +27,3 @@
 
 </body>
 </html>
-
