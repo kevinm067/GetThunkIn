@@ -1,35 +1,68 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-</head>
-<body>
+     <div class="card-container">
+         <div class="card">
+             <div class="front">
+                 <div class="cover">
+                     <img src="images/rotating_card_thumb3.png"/>
+                 </div>
+                 <div class="user">
+                     <img class="img-circle" src="images/rotating_card_profile.png"/>
+                 </div>
+                 <div class="content">
+                     <div class="main">
+                         <h3 class="name">Inna Corman</h3>
+                         <p class="profession">Product Manager</p>
 
-<div class="container">
-  <h2>Expand and Collapse with different icons</h2>
-    <button type="button" class="btn btn-success" data-toggle="collapse" data-target="#demo">
-      <span class="glyphicon glyphicon-collapse-down"></span> Open
-    </button>
-  <div id="demo" class="collapse">
-    Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-  </div>
-</div>
+                         <p class="text-center">"I'm the new Sinatra, and since I made it here I can make it anywhere, yeah, they love me everywhere"</p>
+                     </div>
+                     <div class="footer">
+                         <div class="rating">
+                             <i class="fa fa-mail-forward"></i> Auto Rotation
+                         </div>
+                     </div>
+                 </div>
+             </div> <!-- end front panel -->
+             <div class="back">
+                 <div class="header">
+                     <h5 class="motto">"To be or not to be, this is my awesome motto!"</h5>
+                 </div>
+                 <div class="content">
+                     <div class="main">
+                         <h4 class="text-center">Job Description</h4>
+                         <p class="text-center">Web design, Adobe Photoshop, HTML5, CSS3, Corel and many others...</p>
 
-<script>
-$(document).ready(function(){
-  $("#demo").on("hide.bs.collapse", function(){
-    $(".btn").html('<span class="glyphicon glyphicon-collapse-down"></span> Open');
-  });
-  $("#demo").on("show.bs.collapse", function(){
-    $(".btn").html('<span class="glyphicon glyphicon-collapse-up"></span> Close');
-  });
-});
-</script>
+                         <div class="stats-container">
+                             <div class="stats">
+                                 <h4>235</h4>
+                                 <p>
+                                     Followers
+                                 </p>
+                             </div>
+                             <div class="stats">
+                                 <h4>114</h4>
+                                 <p>
+                                     Following
+                                 </p>
+                             </div>
+                             <div class="stats">
+                                 <h4>35</h4>
+                                 <p>
+                                     Projects
+                                 </p>
+                             </div>
+                         </div>
 
-</body>
+                     </div>
+                 </div>
+                 <div class="footer">
+                     <div class="social-links text-center">
+                         <a href="http://creative-tim.com" class="facebook"><i class="fa fa-facebook fa-fw"></i></a>
+                         <a href="http://creative-tim.com" class="google"><i class="fa fa-google-plus fa-fw"></i></a>
+                         <a href="http://creative-tim.com" class="twitter"><i class="fa fa-twitter fa-fw"></i></a>
+                     </div>
+                 </div>
+             </div> <!-- end back panel -->
+         </div> <!-- end card -->
+     </div> <!-- end card-container -->
 </html>
