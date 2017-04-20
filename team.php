@@ -1,5 +1,8 @@
 <!DOCTYPE html>
 <html>
+         <head>
+                  <link rel="stylesheet" type="text/css" href="cards.css">
+         </head>
          <div class="card-container">
          <div class="card">
              <div class="front">
