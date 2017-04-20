@@ -15,8 +15,8 @@
 
   <div data-role="main" class="ui-content">
     <div data-role="collapsible">
-      <h1>Click me - I'm collapsible!</h1>
-      <p>I'm the expanded content.</p>
+      <h1>MiniLesson #1 - Creating A Project</h1>
+      <p>Google Doc IFrame Coming Soon!</p>
     </div>
   </div>
 
