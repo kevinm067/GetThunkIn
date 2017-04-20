@@ -422,7 +422,7 @@
                      </div>
                      <div class="footer">
                          <div class="rating">
-                             <i class="fa fa-mail-forward"></i> Auto Rotation
+                             <i class="fa fa-mail-forward"></i> Tap or place your cursor here
                          </div>
                      </div>
                  </div>
@@ -438,22 +438,7 @@
 
                          <div class="stats-container">
                              <div class="stats">
-                                 <h4>235</h4>
-                                 <p>
-                                     Followers
-                                 </p>
-                             </div>
-                             <div class="stats">
-                                 <h4>114</h4>
-                                 <p>
-                                     Following
-                                 </p>
-                             </div>
-                             <div class="stats">
-                                 <h4>35</h4>
-                                 <p>
-                                     Projects
-                                 </p>
+
                              </div>
                          </div>
 
