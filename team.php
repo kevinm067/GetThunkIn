@@ -360,7 +360,7 @@
          <div class="card">
              <div class="front">
                  <div class="cover">
-                     <img src="https://pbs.twimg.com/profile_images/725677511070208002/wNF2siRT.jpg"/>
+                     <img src="http://my-smashing.smashingapps.netdna-cdn.com/wp-content/uploads/2013/04/abstractbackground40.jpg"/>
                  </div>
                  <div class="user">
                      <img class="img-circle" src="https://pbs.twimg.com/profile_images/725677511070208002/wNF2siRT.jpg"/>
