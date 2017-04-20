@@ -408,17 +408,17 @@
          <div class="card">
              <div class="front">
                  <div class="cover">
-                     <img src="images/rotating_card_thumb3.png"/>
+                     <img src="http://allswalls.com/images/abstract-wallpaper-22.jpg"/>
                  </div>
                  <div class="user">
-                     <img class="img-circle" src="images/rotating_card_profile.png"/>
+                     <img class="img-circle" src="http://community.thunkable.com/uploads/default/original/2X/0/015fd61bf40015820b713295c7011a17c7ec8edf.png"/>
                  </div>
                  <div class="content">
                      <div class="main">
-                         <h3 class="name">Inna Corman</h3>
-                         <p class="profession">Product Manager</p>
+                         <h3 class="name">Jackson Abney</h3>
+                         <p class="profession">Lesson Writer</p>
 
-                         <p class="text-center">"I'm the new Sinatra, and since I made it here I can make it anywhere, yeah, they love me everywhere"</p>
+                         <p class="text-center">"An Alaskan Android Developer with two apps on the Google Play store."</p>
                      </div>
                      <div class="footer">
                          <div class="rating">
@@ -429,12 +429,12 @@
              </div> <!-- end front panel -->
              <div class="back">
                  <div class="header">
-                     <h5 class="motto">"To be or not to be, this is my awesome motto!"</h5>
+                     <h5 class="motto">"Keep trying and things will either go right or honorably wrong."</h5>
                  </div>
                  <div class="content">
                      <div class="main">
-                         <h4 class="text-center">Job Description</h4>
-                         <p class="text-center">Web design, Adobe Photoshop, HTML5, CSS3, Corel and many others...</p>
+                         <h4 class="text-center">About Jackson Abney</h4>
+                         <p class="text-center">Lesson Writer, Network Specialist. Tells artist to get to work while sitting in bed wearing pajamas watching TV and eating Pizza. You can contact me on the Thunkable Community Fourms @MrLazy113</p>
 
                          <div class="stats-container">
                              <div class="stats">
