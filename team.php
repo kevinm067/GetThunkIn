@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html>
          <head>
-                  <link rel="stylesheet" type="text/css" href="cards.css">
+                  <link rel="stylesheet" type="text/css" href="rotating-card.css">
+                  <link rel="stylesheet" type="text/css" href="bootstrap.css">
          </head>
          <div class="card-container">
          <div class="card">
