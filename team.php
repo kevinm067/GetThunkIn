@@ -10,7 +10,7 @@
 
 <div data-role="page" id="pageone">
   <div data-role="header">
-    <h1>MiniLesson Directory. Click To Expand A Minilesson</h1>
+    <h1>MiniLesson Directory. Click To Expand A MiniLesson</h1>
   </div>
 
   <div data-role="main" class="ui-content">
