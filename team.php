@@ -385,9 +385,8 @@
                  </div>
                  <div class="content">
                      <div class="main">
-                         <h4 class="text-center">Job Description</h4>
-                         <p class="text-center">Web design, Lesson Writer</p>
-
+                         <h4 class="text-center">About Luca Galassi</h4>
+                         <p class="text-center">I cover everything that is needed in this project. If you would like to contact me or need help with anything please go to <a href="https://community.thunkable.com">community.thunkable.com</a> and message @lucatunes</p>
                          <div class="stats-container">
                              <div class="stats">
                              </div>
