@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-<title>W3.CSS Template</title>
+<title>Coming Soon!</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
@@ -9,7 +9,7 @@
 body,h1 {font-family: "Raleway", sans-serif}
 body, html {height: 100%}
 .bgimg {
-    background-image: url('/w3images/forestbridge.jpg');
+    background-image: url('http://www.tacticmusic.com/wp-content/uploads/2015/11/coming-soon.jpg');
     min-height: 100%;
     background-position: center;
     background-size: cover;
