@@ -386,26 +386,10 @@
                  <div class="content">
                      <div class="main">
                          <h4 class="text-center">Job Description</h4>
-                         <p class="text-center">Web design, Adobe Photoshop, HTML5, CSS3, Corel and many others...</p>
+                         <p class="text-center">Web design, Lesson Writer</p>
 
                          <div class="stats-container">
                              <div class="stats">
-                                 <h4>235</h4>
-                                 <p>
-                                     Followers
-                                 </p>
-                             </div>
-                             <div class="stats">
-                                 <h4>114</h4>
-                                 <p>
-                                     Following
-                                 </p>
-                             </div>
-                             <div class="stats">
-                                 <h4>35</h4>
-                                 <p>
-                                     Projects
-                                 </p>
                              </div>
                          </div>
 
