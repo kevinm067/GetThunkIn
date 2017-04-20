@@ -360,7 +360,7 @@
          <div class="card">
              <div class="front">
                  <div class="cover">
-                     <img src="https://cdn.pixabay.com/photo/2016/07/11/17/43/abstract-1510187_960_720.png"/>
+                     <img src="http://kingofwallpapers.com/abstract/abstract-006.jpg"/>
                  </div>
                  <div class="user">
                      <img class="img-circle" src="https://pbs.twimg.com/profile_images/725677511070208002/wNF2siRT.jpg"/>
