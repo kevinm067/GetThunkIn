@@ -465,26 +465,26 @@
                  </div>
                  <div class="content">
                      <div class="main">
-                         <h3 class="name">Inna Corman</h3>
-                         <p class="profession">Product Manager</p>
+                         <h3 class="name">Sander Jochems</h3>
+                         <p class="profession">Head Of Techincal Services</p>
 
-                         <p class="text-center">"I'm the new Sinatra, and since I made it here I can make it anywhere, yeah, they love me everywhere"</p>
+                         <p class="text-center">"Im Really Lazy And Didnt Feel Like Writing A Bio"</p>
                      </div>
                      <div class="footer">
                          <div class="rating">
-                             <i class="fa fa-mail-forward"></i> Auto Rotation
+                             <i class="fa fa-mail-forward"></i> Tap Or Click
                          </div>
                      </div>
                  </div>
              </div> <!-- end front panel -->
              <div class="back">
                  <div class="header">
-                     <h5 class="motto">"To be or not to be, this is my awesome motto!"</h5>
+                     <h5 class="motto">"Sander Send Me A Motto On The Forums"</h5>
                  </div>
                  <div class="content">
                      <div class="main">
-                         <h4 class="text-center">Job Description</h4>
-                         <p class="text-center">Web design, Adobe Photoshop, HTML5, CSS3, Corel and many others...</p>
+                         <h4 class="text-center">About Sander Jochems</h4>
+                         <p class="text-center">Web Devloper, PHP Pro, Thunkable Expert, And More! You can contact me on the Thunkable Community Forms, Message @Sander0542.</p>
 
                          <div class="stats-container">
                              <div class="stats">
