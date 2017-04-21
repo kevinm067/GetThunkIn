@@ -458,33 +458,33 @@
          <div class="card">
              <div class="front">
                  <div class="cover">
-                     <img src="images/rotating_card_thumb3.png"/>
+                     <img src="https://s-media-cache-ak0.pinimg.com/originals/fe/9f/87/fe9f87eec18f901a9224686cdc69af4b.jpg"/>
                  </div>
                  <div class="user">
-                     <img class="img-circle" src="images/rotating_card_profile.png"/>
+                     <img class="img-circle" src="https://thumb.ibb.co/gZOYy5/2017_04_20_07_40_00.jpg"/>
                  </div>
                  <div class="content">
                      <div class="main">
-                         <h3 class="name">Inna Corman</h3>
-                         <p class="profession">Product Manager</p>
+                         <h3 class="name">Kevin Mehta</h3>
+                         <p class="profession">Technical Operations/Website Management</p>
 
-                         <p class="text-center">"I'm the new Sinatra, and since I made it here I can make it anywhere, yeah, they love me everywhere"</p>
+                         <p class="text-center">"App Developer, Website creator, Ethical Hacker and a youtuber with hacking community"</p>
                      </div>
                      <div class="footer">
                          <div class="rating">
-                             <i class="fa fa-mail-forward"></i> Auto Rotation
+                             <i class="fa fa-mail-forward"></i> Tap or Click
                          </div>
                      </div>
                  </div>
              </div> <!-- end front panel -->
              <div class="back">
                  <div class="header">
-                     <h5 class="motto">"To be or not to be, this is my awesome motto!"</h5>
+                     <h5 class="motto">"The best way to predict the future is to create it"</h5>
                  </div>
                  <div class="content">
                      <div class="main">
-                         <h4 class="text-center">Job Description</h4>
-                         <p class="text-center">Web design, Adobe Photoshop, HTML5, CSS3, Corel and many others...</p>
+                         <h4 class="text-center">About Kevin Mehta</h4>
+                         <p class="text-center">I am a crazy Tech Lover, youtube content creator with some hacking lessons, check me out <a href="https://youtube.com/TechBuddy7"> Link </a> and you can also contact me on thunkable community @kevin </p>
 
                          <div class="stats-container">
                              <div class="stats">
