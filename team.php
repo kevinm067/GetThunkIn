@@ -374,7 +374,7 @@
                      </div>
                      <div class="footer">
                          <div class="rating">
-                             <i class="fa fa-mail-forward"></i> Tap Or Place Your Cursor Here
+                             <i class="fa fa-mail-forward"></i> Tap Or Click
                          </div>
                      </div>
                  </div>
@@ -422,7 +422,7 @@
                      </div>
                      <div class="footer">
                          <div class="rating">
-                             <i class="fa fa-mail-forward"></i> Tap or place your cursor here
+                             <i class="fa fa-mail-forward"></i> Tap Or Click
                          </div>
                      </div>
                  </div>
