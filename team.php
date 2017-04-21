@@ -1,851 +1,162 @@
+
 <!DOCTYPE html>
 <html>
-         <head>
-                  <link rel="stylesheet" href="rotating-card.css">
-                  <link rel="stylesheet" href="bootstrap.css">
-                  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-         </head>
-         <style>
-		 .teamcards1 {
-    -webkit-column-count: 4; /* Chrome, Safari, Opera */
-    -moz-column-count: 4; /* Firefox */
-    column-count: 4;
+  <head>
+	<title>Home | GetThunkin</title>
 
-    -webkit-column-gap: 40px; /* Chrome, Safari, Opera */
-    -moz-column-gap: 40px; /* Firefox */
-    column-gap: 40px;
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta http-equiv="Cache-control" content="max-age=3600">
+	<meta id="viewport" name="viewport" content="width=device-width, initial-scale=1">
+	<meta id="description" name="description" content="Thunkable is a drag and drop app creator based off of MIT AppInventor but with more components and an amazing community. This course was intended for use with Thunkable, but may also work on...">
+	<meta id="author" name="author" content="Sander Jochems">
+	<meta id="keywords" name="keywords" content="GetThunkIn">
+	<meta id="copyright" name='copyright' content="Sander Jochems">
+	<meta id="robots" name="robots" content="all">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	
+	<link href="/css/google-font/lato.css" rel="stylesheet" type="text/css">
+	<link href="/css/google-font/open-sans.css" rel="stylesheet" type="text/css">
+	
+	<link href="/css/bootstrap/bootstrap.min.css" rel="stylesheet" type="text/css">
+	<link href="/css/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+	<link href="/css/custom/custom.css" rel="stylesheet" type="text/css">
+	
+	<script src="/css/ajax/jquery.min.js" type="text/javascript"></script>
+	<script src="/css/bootstrap/bootstrap.min.js" type="text/javascript"></script>
+	
+	<script>
+	.affix {
+		top: 0;
+		width: 100%;
+	}
 
-    -webkit-column-rule: 4px outset #f44336; /* Chrome, Safari, Opera */
-    -moz-column-rule: 4px outset #f44336; /* Firefox */
-    column-rule: 4px outset #f44336;
-}
-		 		 .teamcards2 {
-    -webkit-column-count: 4; /* Chrome, Safari, Opera */
-    -moz-column-count: 4; /* Firefox */
-    column-count: 4;
+	.affix + .container-fluid {
+		padding-top: 70px;
+	}
+	</script>
+  </head>
+	
+<div id="header">
 
-    -webkit-column-gap: 40px; /* Chrome, Safari, Opera */
-    -moz-column-gap: 40px; /* Firefox */
-    column-gap: 40px;
+<nav class="navbar navbar-inverse" data-spy="affix" data-offset-top="197" style="border-radius: 0 !important;">
+  <div class="container">
+	<div class="navbar-header">
+	  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+		<span class="sr-only">Toggle navigation</span>
+		<span class="icon-bar"></span>
+		<span class="icon-bar"></span>
+		<span class="icon-bar"></span>
+	  </button>
+	  <a class="navbar-brand accent" href="#">GetThunkIn</a>
+	</div>
+	<div class="navbar-collapse collapse">
+	  <ul class="nav navbar-nav">
+		<li class="active"><a href="/home"><i class="fa fa-home"></i> Home</a>
+		</li>
+		<li><a href="/team"><i class="fa fa-list"></i> Team</a>
+		</li>
+	  </ul>
+	</div>
+  </div>
+</nav>
 
-    -webkit-column-rule: 4px outset #f44336; /* Chrome, Safari, Opera */
-    -moz-column-rule: 4px outset #f44336; /* Firefox */
-    column-rule: 4px outset #f44336;
-}
-          
-                  
-		 
-		 body {
-	margin-top: 60px;
-	font-size: 14px;
-	font-family: "Helvetica Nueue",Arial,Verdana,sans-serif;
-	background-color: #E5E9ED;
-}
-.btn:hover,
-.btn:focus,
-.btn:active{
-    outline: 0 !important;
-}
-/* entire container, keeps perspective */
-.card-container {
-	  -webkit-perspective: 800px;
-   -moz-perspective: 800px;
-     -o-perspective: 800px;
-        perspective: 800px;
-        margin-bottom: 30px;
-}
-/* flip the pane when hovered */
-.card-container:not(.manual-flip):hover .card,
-.card-container.hover.manual-flip .card{
-	-webkit-transform: rotateY( 180deg );
--moz-transform: rotateY( 180deg );
- -o-transform: rotateY( 180deg );
-    transform: rotateY( 180deg );
-}
+  <div style="background-image: url(../images/background.png); height: 250px">
+	<div class="container">
+	  <div class="banner">
+		<div class="wsite-section-elements">
+		  <div class="wsite-spacer" style="height:50px;"></div>
+		  <div class="wsite-spacer" style="height:50px;"></div>
+		  <h2 style="text-align:center;"><font color="#ffffff"><font size="7">Welcome to GetThunkin!</font></h2>
+		  <div class="wsite-spacer" style="height:50px;"></div>
+		  <div class="wsite-spacer" style="height:50px;"></div>
+		  <div class="wsite-spacer" style="height:50px;"></div>
+		</div>
+	  </div>
+	</div>
+  </div>
 
+  <div class="main-wrap">
+	<div id="wsite-content" class="wsite-elements wsite-not-footer">
+	
+	  <div class="wsite-section-wrap">
+		<div class="wsite-section wsite-body-section wsite-background-1" style="height: 448px;">
+		  <div class="wsite-section-content">
+			<div class="container">
+			  <div class="wsite-section-elements">
+				<div class="wsite-spacer" style="height:50px;"></div>
+				<h2 class="wsite-content-title" style="text-align:center;"><font color="#2a2a2a"><font size="7">What is Thunkable?</font></font></h2>
+				<div>
+				  <div class="wsite-multicol">
+					<div class="wsite-multicol-table-wrap" style="margin:0 -15px;">
+					  <table class="wsite-multicol-table">
+						<tbody class="wsite-multicol-tbody">
+						  <tr class="wsite-multicol-tr">
+							<td class="wsite-multicol-col" style="width:19.604852906208%; padding:0 15px;">
+							  <div class="wsite-spacer" style="height:50px;"></div>
+							</td>
+							<td class="wsite-multicol-col" style="width:60.942217173562%; padding:0 15px;">
+							  <div class="paragraph" style="text-align:center;"><font color="#2a2a2a">Thunkable is a drag and drop app creator based off of MIT AppInventor but with more components and an amazing community. This course was intended for use with Thunkable, but may also work on AppInventor. </font>&#8203;</div>
+						  	</td>
+							<td class="wsite-multicol-col" style="width:19.45292992023%; padding:0 15px;">
+							  <div class="wsite-spacer" style="height:50px;"></div>
+							</td>
+						  </tr>
+						</tbody>
+					  </table>
+					</div>
+				  </div>
+				</div>
+			  </div>
+			</div>
+		  </div>
+		</div>
+	  </div>
+	  
+	  <div class="wsite-section-wrap">
+		<div class="wsite-section wsite-body-section wsite-background-9">
+		  <div class="wsite-section-content">
+			<div class="container">
+			  <div class="wsite-section-elements">
+				<h2 class="wsite-content-title" style="text-align:center;"><font size="6">Lessons 1 :&nbsp;</font><font color="#5fa233"><font size="6">Basic</font></font></h2>
+				  <div>
+					<div class="wsite-multicol">
+					  <div class="wsite-multicol-table-wrap" style="margin:0 -15px;">
+						<table class="wsite-multicol-table">
+						  <tbody class="wsite-multicol-tbody">
+							<tr class="wsite-multicol-tr">
+							  <td class="wsite-multicol-col" style="width:25.478260869565%; padding:0 15px;">
+								<div>
+								  <div class="wsite-image wsite-image-border-none " style="padding-top:10px;padding-bottom:10px;margin-left:0px;margin-right:0px;text-align:center">
+									<a><img src="/images/course/1/icon.png" alt="Picture" style="width:121;max-width:100%" /></a>
+								  <div style="display:block;font-size:90%"></div>
+								  </div>
+								</div>
+							  </td>
+						      <td class="wsite-multicol-col" style="width:74.521739130435%; padding:0 15px;">
+								<div class="paragraph"><font size="5" color="#2a2a2a">Learn to Create Account on Thunkable<br />Learn to Create your first App<br />Learn About Components</font><br /></div>
+							  </td>
+							</tr>
+						  </tbody>
+						</table>
+					  </div>
+					</div>
+				  </div>
+				  <div style="text-align:center;">
+					<div style="height: 10px; overflow: hidden;"></div>
+					<a class="wsite-button wsite-button-small wsite-button-highlight" href="/lesson/1/basic" ><span class="wsite-button-inner">Start Here</span></a>
+					<div style="height: 10px; overflow: hidden;"></div>
+				  </div>
+				  <div class="paragraph">&#8203;</div>
+			  </div>
+			</div>
+		  </div>
+		</div>
+	  </div>
+	  
+	</div>
+  </div>
 
-.card-container.static:hover .card,
-.card-container.static.hover .card {
-	-webkit-transform: none;
--moz-transform: none;
- -o-transform: none;
-    transform: none;
-}
-/* flip speed goes here */
-.card {
-	 -webkit-transition: -webkit-transform .5s;
-   -moz-transition: -moz-transform .5s;
-     -o-transition: -o-transform .5s;
-        transition: transform .5s;
--webkit-transform-style: preserve-3d;
-   -moz-transform-style: preserve-3d;
-     -o-transform-style: preserve-3d;
-        transform-style: preserve-3d;
-	position: relative;
-}
-
-/* hide back of pane during swap */
-.front, .back {
-	-webkit-backface-visibility: hidden;
-   -moz-backface-visibility: hidden;
-     -o-backface-visibility: hidden;
-        backface-visibility: hidden;
-	position: absolute;
-	top: 0;
-	left: 0;
-	background-color: #FFF;
-    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.14);
-}
-
-/* front pane, placed above back */
-.front {
-	z-index: 2;
-}
-
-/* back, initially hidden pane */
-.back {
-		-webkit-transform: rotateY( 180deg );
-   -moz-transform: rotateY( 180deg );
-     -o-transform: rotateY( 180deg );
-        transform: rotateY( 180deg );
-        z-index: 3;
-}
-
-.back .btn-simple{
-    position: absolute;
-    left: 0;
-    bottom: 4px;
-}
-/*        Style       */
-
-
-.card{
-    background: none repeat scroll 0 0 #FFFFFF;
-    border-radius: 4px;
-    color: #444444;
-}
-.card-container, .front, .back {
-	width: 100%;
-	height: 420px;
-	border-radius: 4px;
-}
-.card .cover{
-    height: 105px;
-    overflow: hidden;
-    border-radius: 4px 4px 0 0;
-}
-.card .cover img{
-    width: 100%;
-}
-.card .user{
-    border-radius: 50%;
-    display: block;
-    height: 120px;
-    margin: -55px auto 0;
-    overflow: hidden;
-    width: 120px;
-}
-.card .user img{
-    background: none repeat scroll 0 0 #FFFFFF;
-    border: 4px solid #FFFFFF;
-    width: 100%;
-}
-
-.card .content{
-    background-color: rgba(0, 0, 0, 0);
-    box-shadow: none;
-    padding: 10px 20px 20px;
-}
-.card .content .main {
-    min-height: 160px;
-}
-.card .back .content .main {
-    height: 215px;
-}
-.card .name {
-    font-size: 22px;
-    line-height: 28px;
-    margin: 10px 0 0;
-    text-align: center;
-    text-transform: capitalize;
-}
-.card h5{
-    margin: 5px 0;
-    font-weight: 400;
-    line-height: 20px;
-}
-.card .profession{
-    color: #999999;
-    text-align: center;
-    margin-bottom: 20px;
-}
-.card .footer {
-    border-top: 1px solid #EEEEEE;
-    color: #999999;
-    margin: 30px 0 0;
-    padding: 10px 0 0;
-    text-align: center;
-}
-.card .footer .social-links{
-    font-size: 18px;
-}
-.card .footer .social-links a{
-    margin: 0 7px;
-}
-.card .footer .btn-simple{
-    margin-top: -6px;
-}
-.card .header {
-    padding: 15px 20px;
-    height: 90px;
-}
-.card .motto{
-    border-bottom: 1px solid #EEEEEE;
-    color: #999999;
-    font-size: 14px;
-    font-weight: 400;
-    padding-bottom: 10px;
-    text-align: center;
-}
-
-.card .stats-container{
-	width: 100%;
-	margin-top: 50px;
-}
-.card .stats{
-	display: block;
-	float: left;
-	width: 33.333333%;
-	text-align: center;
-}
-
-.card .stats:first-child{
-	border-right: 1px solid #EEEEEE;
-}
-.card .stats:last-child{
-	border-left: 1px solid #EEEEEE;
-}
-.card .stats h4{
-	font-weight: 300;
-	margin-bottom: 5px;
-}
-.card .stats p{
-	color: #777777;
-}
-/*      Just for presentation        */
-
-.title{
-    color: #506A85;
-    text-align: center;
-    font-weight: 300;
-    font-size: 44px;
-    margin-bottom: 90px;
-    line-height: 90%;
-}
-.title small{
-    font-size: 17px;
-    color: #999;
-    text-transform: uppercase;
-    margin: 0;
-}
-.space-30{
-	height: 30px;
-	display: block;
-}
-.space-50{
-    height: 50px;
-    display: block;
-}
-.space-200{
-    height: 200px;
-    display: block;
-}
-.white-board{
-    background-color: #FFFFFF;
-    min-height: 200px;
-    padding: 60px 60px 20px;
-}
-.ct-heart{
-    color: #F74933;
-}
-
- pre.prettyprint{
-    background-color: #ffffff;
-    border: 1px solid #999;
-    margin-top: 20px;
-    padding: 20px;
-    text-align: left;
-}
-.atv, .str{
-    color: #05AE0E;
-}
-.tag, .pln, .kwd{
-     color: #3472F7;
-}
-.atn{
-  color: #2C93FF;
-}
-.pln{
-   color: #333;
-}
-.com{
-    color: #999;
-}
-
-.btn-simple{
-    opacity: .8;
-    color: #666666;
-    background-color: transparent;
-}
-
-.btn-simple:hover,
-.btn-simple:focus{
-    background-color: transparent;
-    box-shadow: none;
-    opacity: 1;
-}
-.btn-simple i{
-    font-size: 16px;
-}
-
-.navbar-brand-logo{
-    padding: 0;
-}
-.navbar-brand-logo .logo{
-    border: 1px solid #333333;
-    border-radius: 50%;
-    float: left;
-    overflow: hidden;
-    width: 60px;
-}
-.navbar .navbar-brand-logo .brand{
-    color: #FFFFFF;
-    float: left;
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 20px;
-    margin-left: 10px;
-    margin-top: 10px;
-    width: 60px;
-}
-.navbar-default .navbar-brand-logo .brand{
-    color: #555;
-}
-
-
-/*       Fix bug for IE      */
-
-@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
-    .front, .back{
-        -ms-backface-visibility: visible;
-        backface-visibility: visible;
-    }
-
-    .back {
-        visibility: hidden;
-        -ms-transition: all 0.2s cubic-bezier(.92,.01,.83,.67);
-    }
-    .front{
-        z-index: 4;
-    }
-    .card-container:not(.manual-flip):hover .back,
-    .card-container.manual-flip.hover .back{
-        z-index: 5;
-        visibility: visible;
-    }
-}
-         </style>
-        <div class="teamcards1">
-		 <div class="card-container">
-         <div class="card">
-             <div class="front">
-                 <div class="cover">
-                     <img src="http://kingofwallpapers.com/abstract/abstract-006.jpg"/>
-                 </div>
-                 <div class="user">
-                     <img class="img-circle" src="https://pbs.twimg.com/profile_images/725677511070208002/wNF2siRT.jpg"/>
-                 </div>
-                 <div class="content">
-                     <div class="main">
-                         <h3 class="name">Luca Galassi</h3>
-                         <p class="profession">Project Leader</p>
-
-                         <p class="text-center">"Guys We are behind! Get back to work! 10 Seconds Later: Did you see the big game last night?"</p>
-                     </div>
-                     <div class="footer">
-                         <div class="rating">
-                             <i class="fa fa-mail-forward"></i> Tap Or Click
-                         </div>
-                     </div>
-                 </div>
-             </div> <!-- end front panel -->
-             <div class="back">
-                 <div class="header">
-                     <h5 class="motto">"Get Work Done, Then Have Fun!"</h5>
-                 </div>
-                 <div class="content">
-                     <div class="main">
-                         <h4 class="text-center">About Luca Galassi</h4>
-                         <p class="text-center">I cover everything that is needed in this project. If you would like to contact me or need help with anything please go to <a href="https://community.thunkable.com">community.thunkable.com</a> and message @lucatunes</p>
-                         <div class="stats-container">
-                             <div class="stats">
-                             </div>
-                         </div>
-
-                     </div>
-                 </div>
-                 <div class="footer">
-                     <div class="social-links text-center">
-                         <a href="http://creative-tim.com" class="facebook"><i class="fa fa-facebook fa-fw"></i></a>
-                         <a href="http://creative-tim.com" class="google"><i class="fa fa-google-plus fa-fw"></i></a>
-                         <a href="http://creative-tim.com" class="twitter"><i class="fa fa-twitter fa-fw"></i></a>
-                     </div>
-                 </div>
-             </div> <!-- end back panel -->
-         </div> <!-- end card -->
-     </div> <!-- end card-container -->
-		 <div class="card-container">
-         <div class="card">
-             <div class="front">
-                 <div class="cover">
-                     <img src="http://allswalls.com/images/abstract-wallpaper-22.jpg"/>
-                 </div>
-                 <div class="user">
-                     <img class="img-circle" src="http://community.thunkable.com/uploads/default/original/2X/0/015fd61bf40015820b713295c7011a17c7ec8edf.png"/>
-                 </div>
-                 <div class="content">
-                     <div class="main">
-                         <h3 class="name">Jackson Abney</h3>
-                         <p class="profession">Lesson Writer</p>
-
-                         <p class="text-center">"An Alaskan Android Developer with two apps on the Google Play store."</p>
-                     </div>
-                     <div class="footer">
-                         <div class="rating">
-                             <i class="fa fa-mail-forward"></i> Tap Or Click
-                         </div>
-                     </div>
-                 </div>
-             </div> <!-- end front panel -->
-             <div class="back">
-                 <div class="header">
-                     <h5 class="motto">"Keep trying and things will either go right or honorably wrong."</h5>
-                 </div>
-                 <div class="content">
-                     <div class="main">
-                         <h4 class="text-center">About Jackson Abney</h4>
-                         <p class="text-center">Lesson Writer, Network Specialist. Tells artist to get to work while sitting in bed wearing pajamas watching TV and eating Pizza. You can contact me on the Thunkable Community Fourms @MrLazy113</p>
-
-                         <div class="stats-container">
-                             <div class="stats">
-
-                             </div>
-                         </div>
-
-                     </div>
-                 </div>
-                 <div class="footer">
-                     <div class="social-links text-center">
-                         <a href="http://creative-tim.com" class="facebook"><i class="fa fa-facebook fa-fw"></i></a>
-                         <a href="http://creative-tim.com" class="google"><i class="fa fa-google-plus fa-fw"></i></a>
-                         <a href="http://creative-tim.com" class="twitter"><i class="fa fa-twitter fa-fw"></i></a>
-                     </div>
-                 </div>
-             </div> <!-- end back panel -->
-         </div> <!-- end card -->
-     </div> <!-- end card-container -->
-		 <div class="card-container">
-         <div class="card">
-             <div class="front">
-                 <div class="cover">
-                     <img src="images/rotating_card_thumb3.png"/>
-                 </div>
-                 <div class="user">
-                     <img class="img-circle" src="images/rotating_card_profile.png"/>
-                 </div>
-                 <div class="content">
-                     <div class="main">
-                         <h3 class="name">Inna Corman</h3>
-                         <p class="profession">Product Manager</p>
-
-                         <p class="text-center">"I'm the new Sinatra, and since I made it here I can make it anywhere, yeah, they love me everywhere"</p>
-                     </div>
-                     <div class="footer">
-                         <div class="rating">
-                             <i class="fa fa-mail-forward"></i> Auto Rotation
-                         </div>
-                     </div>
-                 </div>
-             </div> <!-- end front panel -->
-             <div class="back">
-                 <div class="header">
-                     <h5 class="motto">"To be or not to be, this is my awesome motto!"</h5>
-                 </div>
-                 <div class="content">
-                     <div class="main">
-                         <h4 class="text-center">Job Description</h4>
-                         <p class="text-center">Web design, Adobe Photoshop, HTML5, CSS3, Corel and many others...</p>
-
-                         <div class="stats-container">
-                             <div class="stats">
-                                 <h4>235</h4>
-                                 <p>
-                                     Followers
-                                 </p>
-                             </div>
-                             <div class="stats">
-                                 <h4>114</h4>
-                                 <p>
-                                     Following
-                                 </p>
-                             </div>
-                             <div class="stats">
-                                 <h4>35</h4>
-                                 <p>
-                                     Projects
-                                 </p>
-                             </div>
-                         </div>
-
-                     </div>
-                 </div>
-                 <div class="footer">
-                     <div class="social-links text-center">
-                         <a href="http://creative-tim.com" class="facebook"><i class="fa fa-facebook fa-fw"></i></a>
-                         <a href="http://creative-tim.com" class="google"><i class="fa fa-google-plus fa-fw"></i></a>
-                         <a href="http://creative-tim.com" class="twitter"><i class="fa fa-twitter fa-fw"></i></a>
-                     </div>
-                 </div>
-             </div> <!-- end back panel -->
-         </div> <!-- end card -->
-     </div> <!-- end card-container -->
-		 <div class="card-container">
-         <div class="card">
-             <div class="front">
-                 <div class="cover">
-                     <img src="images/rotating_card_thumb3.png"/>
-                 </div>
-                 <div class="user">
-                     <img class="img-circle" src="images/rotating_card_profile.png"/>
-                 </div>
-                 <div class="content">
-                     <div class="main">
-                         <h3 class="name">Inna Corman</h3>
-                         <p class="profession">Product Manager</p>
-
-                         <p class="text-center">"I'm the new Sinatra, and since I made it here I can make it anywhere, yeah, they love me everywhere"</p>
-                     </div>
-                     <div class="footer">
-                         <div class="rating">
-                             <i class="fa fa-mail-forward"></i> Auto Rotation
-                         </div>
-                     </div>
-                 </div>
-             </div> <!-- end front panel -->
-             <div class="back">
-                 <div class="header">
-                     <h5 class="motto">"To be or not to be, this is my awesome motto!"</h5>
-                 </div>
-                 <div class="content">
-                     <div class="main">
-                         <h4 class="text-center">Job Description</h4>
-                         <p class="text-center">Web design, Adobe Photoshop, HTML5, CSS3, Corel and many others...</p>
-
-                         <div class="stats-container">
-                             <div class="stats">
-                                 <h4>235</h4>
-                                 <p>
-                                     Followers
-                                 </p>
-                             </div>
-                             <div class="stats">
-                                 <h4>114</h4>
-                                 <p>
-                                     Following
-                                 </p>
-                             </div>
-                             <div class="stats">
-                                 <h4>35</h4>
-                                 <p>
-                                     Projects
-                                 </p>
-                             </div>
-                         </div>
-
-                     </div>
-                 </div>
-                 <div class="footer">
-                     <div class="social-links text-center">
-                         <a href="http://creative-tim.com" class="facebook"><i class="fa fa-facebook fa-fw"></i></a>
-                         <a href="http://creative-tim.com" class="google"><i class="fa fa-google-plus fa-fw"></i></a>
-                         <a href="http://creative-tim.com" class="twitter"><i class="fa fa-twitter fa-fw"></i></a>
-                     </div>
-                 </div>
-             </div> <!-- end back panel -->
-         </div> <!-- end card -->
-     </div> <!-- end card-container -->
-</div>
-        <div class="teamcards2">
-		 <div class="card-container">
-         <div class="card">
-             <div class="front">
-                 <div class="cover">
-                     <img src="images/rotating_card_thumb3.png"/>
-                 </div>
-                 <div class="user">
-                     <img class="img-circle" src="images/rotating_card_profile.png"/>
-                 </div>
-                 <div class="content">
-                     <div class="main">
-                         <h3 class="name">Inna Corman</h3>
-                         <p class="profession">Product Manager</p>
-
-                         <p class="text-center">"I'm the new Sinatra, and since I made it here I can make it anywhere, yeah, they love me everywhere"</p>
-                     </div>
-                     <div class="footer">
-                         <div class="rating">
-                             <i class="fa fa-mail-forward"></i> Auto Rotation
-                         </div>
-                     </div>
-                 </div>
-             </div> <!-- end front panel -->
-             <div class="back">
-                 <div class="header">
-                     <h5 class="motto">"To be or not to be, this is my awesome motto!"</h5>
-                 </div>
-                 <div class="content">
-                     <div class="main">
-                         <h4 class="text-center">Job Description</h4>
-                         <p class="text-center">Web design, Adobe Photoshop, HTML5, CSS3, Corel and many others...</p>
-
-                         <div class="stats-container">
-                             <div class="stats">
-                                 <h4>235</h4>
-                                 <p>
-                                     Followers
-                                 </p>
-                             </div>
-                             <div class="stats">
-                                 <h4>114</h4>
-                                 <p>
-                                     Following
-                                 </p>
-                             </div>
-                             <div class="stats">
-                                 <h4>35</h4>
-                                 <p>
-                                     Projects
-                                 </p>
-                             </div>
-                         </div>
-
-                     </div>
-                 </div>
-                 <div class="footer">
-                     <div class="social-links text-center">
-                         <a href="http://creative-tim.com" class="facebook"><i class="fa fa-facebook fa-fw"></i></a>
-                         <a href="http://creative-tim.com" class="google"><i class="fa fa-google-plus fa-fw"></i></a>
-                         <a href="http://creative-tim.com" class="twitter"><i class="fa fa-twitter fa-fw"></i></a>
-                     </div>
-                 </div>
-             </div> <!-- end back panel -->
-         </div> <!-- end card -->
-     </div> <!-- end card-container -->
-		 <div class="card-container">
-         <div class="card">
-             <div class="front">
-                 <div class="cover">
-                     <img src="images/rotating_card_thumb3.png"/>
-                 </div>
-                 <div class="user">
-                     <img class="img-circle" src="images/rotating_card_profile.png"/>
-                 </div>
-                 <div class="content">
-                     <div class="main">
-                         <h3 class="name">Inna Corman</h3>
-                         <p class="profession">Product Manager</p>
-
-                         <p class="text-center">"I'm the new Sinatra, and since I made it here I can make it anywhere, yeah, they love me everywhere"</p>
-                     </div>
-                     <div class="footer">
-                         <div class="rating">
-                             <i class="fa fa-mail-forward"></i> Auto Rotation
-                         </div>
-                     </div>
-                 </div>
-             </div> <!-- end front panel -->
-             <div class="back">
-                 <div class="header">
-                     <h5 class="motto">"To be or not to be, this is my awesome motto!"</h5>
-                 </div>
-                 <div class="content">
-                     <div class="main">
-                         <h4 class="text-center">Job Description</h4>
-                         <p class="text-center">Web design, Adobe Photoshop, HTML5, CSS3, Corel and many others...</p>
-
-                         <div class="stats-container">
-                             <div class="stats">
-                                 <h4>235</h4>
-                                 <p>
-                                     Followers
-                                 </p>
-                             </div>
-                             <div class="stats">
-                                 <h4>114</h4>
-                                 <p>
-                                     Following
-                                 </p>
-                             </div>
-                             <div class="stats">
-                                 <h4>35</h4>
-                                 <p>
-                                     Projects
-                                 </p>
-                             </div>
-                         </div>
-
-                     </div>
-                 </div>
-                 <div class="footer">
-                     <div class="social-links text-center">
-                         <a href="http://creative-tim.com" class="facebook"><i class="fa fa-facebook fa-fw"></i></a>
-                         <a href="http://creative-tim.com" class="google"><i class="fa fa-google-plus fa-fw"></i></a>
-                         <a href="http://creative-tim.com" class="twitter"><i class="fa fa-twitter fa-fw"></i></a>
-                     </div>
-                 </div>
-             </div> <!-- end back panel -->
-         </div> <!-- end card -->
-     </div> <!-- end card-container -->
-		 <div class="card-container">
-         <div class="card">
-             <div class="front">
-                 <div class="cover">
-                     <img src="images/rotating_card_thumb3.png"/>
-                 </div>
-                 <div class="user">
-                     <img class="img-circle" src="images/rotating_card_profile.png"/>
-                 </div>
-                 <div class="content">
-                     <div class="main">
-                         <h3 class="name">Inna Corman</h3>
-                         <p class="profession">Product Manager</p>
-
-                         <p class="text-center">"I'm the new Sinatra, and since I made it here I can make it anywhere, yeah, they love me everywhere"</p>
-                     </div>
-                     <div class="footer">
-                         <div class="rating">
-                             <i class="fa fa-mail-forward"></i> Auto Rotation
-                         </div>
-                     </div>
-                 </div>
-             </div> <!-- end front panel -->
-             <div class="back">
-                 <div class="header">
-                     <h5 class="motto">"To be or not to be, this is my awesome motto!"</h5>
-                 </div>
-                 <div class="content">
-                     <div class="main">
-                         <h4 class="text-center">Job Description</h4>
-                         <p class="text-center">Web design, Adobe Photoshop, HTML5, CSS3, Corel and many others...</p>
-
-                         <div class="stats-container">
-                             <div class="stats">
-                                 <h4>235</h4>
-                                 <p>
-                                     Followers
-                                 </p>
-                             </div>
-                             <div class="stats">
-                                 <h4>114</h4>
-                                 <p>
-                                     Following
-                                 </p>
-                             </div>
-                             <div class="stats">
-                                 <h4>35</h4>
-                                 <p>
-                                     Projects
-                                 </p>
-                             </div>
-                         </div>
-
-                     </div>
-                 </div>
-                 <div class="footer">
-                     <div class="social-links text-center">
-                         <a href="http://creative-tim.com" class="facebook"><i class="fa fa-facebook fa-fw"></i></a>
-                         <a href="http://creative-tim.com" class="google"><i class="fa fa-google-plus fa-fw"></i></a>
-                         <a href="http://creative-tim.com" class="twitter"><i class="fa fa-twitter fa-fw"></i></a>
-                     </div>
-                 </div>
-             </div> <!-- end back panel -->
-         </div> <!-- end card -->
-     </div> <!-- end card-container -->
-		 <div class="card-container">
-         <div class="card">
-             <div class="front">
-                 <div class="cover">
-                     <img src="images/rotating_card_thumb3.png"/>
-                 </div>
-                 <div class="user">
-                     <img class="img-circle" src="images/rotating_card_profile.png"/>
-                 </div>
-                 <div class="content">
-                     <div class="main">
-                         <h3 class="name">Inna Corman</h3>
-                         <p class="profession">Product Manager</p>
-
-                         <p class="text-center">"I'm the new Sinatra, and since I made it here I can make it anywhere, yeah, they love me everywhere"</p>
-                     </div>
-                     <div class="footer">
-                         <div class="rating">
-                             <i class="fa fa-mail-forward"></i> Auto Rotation
-                         </div>
-                     </div>
-                 </div>
-             </div> <!-- end front panel -->
-             <div class="back">
-                 <div class="header">
-                     <h5 class="motto">"To be or not to be, this is my awesome motto!"</h5>
-                 </div>
-                 <div class="content">
-                     <div class="main">
-                         <h4 class="text-center">Job Description</h4>
-                         <p class="text-center">Web design, Adobe Photoshop, HTML5, CSS3, Corel and many others...</p>
-
-                         <div class="stats-container">
-                             <div class="stats">
-                                 <h4>235</h4>
-                                 <p>
-                                     Followers
-                                 </p>
-                             </div>
-                             <div class="stats">
-                                 <h4>114</h4>
-                                 <p>
-                                     Following
-                                 </p>
-                             </div>
-                             <div class="stats">
-                                 <h4>35</h4>
-                                 <p>
-                                     Projects
-                                 </p>
-                             </div>
-                         </div>
-
-                     </div>
-                 </div>
-                 <div class="footer">
-                     <div class="social-links text-center">
-                         <a href="http://creative-tim.com" class="facebook"><i class="fa fa-facebook fa-fw"></i></a>
-                         <a href="http://creative-tim.com" class="google"><i class="fa fa-google-plus fa-fw"></i></a>
-                         <a href="http://creative-tim.com" class="twitter"><i class="fa fa-twitter fa-fw"></i></a>
-                     </div>
-                 </div>
-             </div> <!-- end back panel -->
-         </div> <!-- end card -->
-     </div> <!-- end card-container -->
-</div>
-
-		
+  </body>
+</html>
