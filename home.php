@@ -4,12 +4,12 @@
   <head>
 	<title>Home | GetThunkin</title>
 
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta http-equiv="Cache-control" content="max-age=3600">
-    <meta id="viewport" name="viewport" content="width=device-width, initial-scale=1">
-    <meta id="description" name="description" content="Thunkable is a drag and drop app creator based off of MIT AppInventor but with more components and an amazing community. This course was intended for use with Thunkable, but may also work on...">
-    <meta id="author" name="author" content="Sander Jochems">
+	<meta id="viewport" name="viewport" content="width=device-width, initial-scale=1">
+	<meta id="description" name="description" content="Thunkable is a drag and drop app creator based off of MIT AppInventor but with more components and an amazing community. This course was intended for use with Thunkable, but may also work on...">
+	<meta id="author" name="author" content="Sander Jochems">
 	<meta id="keywords" name="keywords" content="GetThunkIn">
 	<meta id="copyright" name='copyright' content="Sander Jochems">
 	<meta id="robots" name="robots" content="all">
@@ -17,11 +17,11 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 	
 	<link href="/css/google-font/lato.css" rel="stylesheet" type="text/css">
-    <link href="/css/google-font/open-sans.css" rel="stylesheet" type="text/css">
+	<link href="/css/google-font/open-sans.css" rel="stylesheet" type="text/css">
 	
-    <link href="/css/bootstrap/bootstrap.min.css" rel="stylesheet" type="text/css">
-    <link href="/css/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link href="/css/custom/custom.css" rel="stylesheet" type="text/css">
+	<link href="/css/bootstrap/bootstrap.min.css" rel="stylesheet" type="text/css">
+	<link href="/css/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+	<link href="/css/custom/custom.css" rel="stylesheet" type="text/css">
 	
 	<script src="/css/ajax/jquery.min.js" type="text/javascript"></script>
 	<script src="/css/bootstrap/bootstrap.min.js" type="text/javascript"></script>
@@ -146,8 +146,6 @@
 	  
 	</div>
   </div>
-  
-  <a href="/team">Team Page</a>
 
   </body>
 </html>
