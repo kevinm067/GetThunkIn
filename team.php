@@ -6,6 +6,35 @@
                   <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 	</head>
 	<style>
+		 .teamcards1 {
+ -    -webkit-column-count: 4; /* Chrome, Safari, Opera */
+ -    -moz-column-count: 4; /* Firefox */
+ -    column-count: 4;
+ -
+ -    -webkit-column-gap: 40px; /* Chrome, Safari, Opera */
+ -    -moz-column-gap: 40px; /* Firefox */
+ -    column-gap: 40px;
+ -
+ -    -webkit-column-rule: 4px outset #f44336; /* Chrome, Safari, Opera */
+ -    -moz-column-rule: 4px outset #f44336; /* Firefox */
+ -    column-rule: 4px outset #f44336;
+ -}
+		 .teamcards2 {
+ -    -webkit-column-count: 4; /* Chrome, Safari, Opera */
+ -    -moz-column-count: 4; /* Firefox */
+ -    column-count: 4;
+ -
+ -    -webkit-column-gap: 40px; /* Chrome, Safari, Opera */
+ -    -moz-column-gap: 40px; /* Firefox */
+ -    column-gap: 40px;
+ -
+ -    -webkit-column-rule: 4px outset #f44336; /* Chrome, Safari, Opera */
+ -    -moz-column-rule: 4px outset #f44336; /* Firefox */
+ -    column-rule: 4px outset #f44336;
+ -}
+	</style>
+	<style>
+		
 body {
 	margin-top: 60px;
 	font-size: 14px;
