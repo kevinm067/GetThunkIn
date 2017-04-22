@@ -4,7 +4,6 @@
 		  <title>GetThunkin | Team</title>
                   <link rel="stylesheet" href="rotating-card.css">
                   <link rel="stylesheet" href="/css/bootstrap/bootstrap.min.css">
-        </head>
 	<style>
 body {
 	margin-top: 60px;
@@ -326,6 +325,8 @@ body {
     }
 }
 	</style>
+        </head>
+	<body>
         <div class="teamcards1">
 		 <div class="card-container">
          <div class="card">
@@ -486,7 +487,8 @@ body {
                          <p class="profession">Technical Services</p>
 
                          <p class="text-center">"Fact #234583738637
-If i won the award for laziness , I would send somebody to pick it up for me.
+If i won the award for laziness , I would send some
+				 to pick it up for me.
 Btw you didn't even read the fact number."</p>
                      </div>
                      <div class="footer">
