@@ -1,5 +1,4 @@
 # GetThunkIn! 
-Hello Everyone! Im Luca the Project Leader and our project is teaching people how to use [Thunkable](https://thunkable.com) and [App Inventor](appinventor.mit.edu)
 
- We are going to be adding more to this but please message @lucatunes on community.thunkable.com if you would like to join this project.
-This GitHub Is for the website! Thanks For Reading!
+This is a repo for our upcoming website which would help beginners to get started in [Thunkable](http://www.thunkable.com), a Blockly based Android app builder.
+The website is still in development and if you would like to join us,make a pull request here or message [@lucatunes](http://community.thunkable.com/users/lucatunes/activity) in the [Thunkable community](http://community.thunkable.com)
