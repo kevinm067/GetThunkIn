@@ -767,6 +767,6 @@ Btw you didn't even read the fact number."</p>
              </div> <!-- end back panel -->
          </div> <!-- end card -->
      </div> <!-- end card-container -->
-</div>
+</body>
 
 		
