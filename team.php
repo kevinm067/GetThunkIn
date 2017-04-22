@@ -505,7 +505,7 @@ Btw you didn't even read the fact number."</p>
                  <div class="content">
                      <div class="main">
                          <h4 class="text-center">About Kevin Mehta</h4>
-                         <p class="text-center">A Website creator, Ethical Hacker, small youtuber Link to my Channel where i teach hacks for iOS, App developer and a friendly guyContact me at thunkable community @Kevin</p>
+                         <p class="text-center">A Website creator, Ethical Hacker, Small youtuber <a href="https://youtube.com/TechBuddy7"> Link To My Channel </a> where i teach hacks for iOS, App developer and a friendly guy, Contact me at thunkable community @Kevin</p>
 
                          <div class="stats-container">
                              <div class="stats">
