@@ -3,10 +3,8 @@
          <head>
 		  <title>GetThunkin | Team</title>
                   <link rel="stylesheet" href="rotating-card.css">
-                  <link rel="stylesheet" href="/css/bootstrap/css/bootstrap.css">
-                  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-	</head>
-	-         </head>
+                  <link rel="stylesheet" href="/css/bootstrap/bootstrap.min.css">
+        </head>
  -         <style>
  -		 .teamcards1 {
  -    -webkit-column-count: 4; /* Chrome, Safari, Opera */
